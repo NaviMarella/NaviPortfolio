@@ -1,20 +1,13 @@
 import React from 'react'
-import Link from 'gatsby-link'
 import { Flex, Box } from '@rebass/grid'
 import styled, { css } from 'styled-components'
-import Img from 'gatsby-image'
 import FlickrHero from 'react-flickr-hero'
 import Footer from "../components/footer"
 import { media } from '../utils/style'
 import Showcase from "../components/showcase"
-import Button from '../components/button'
-import Bar from '../components/bar'
-import Breadcrumb from '../components/breadcrumb'
-import Carousel from '../components/carousel'
 import NavBar from '../components/navbar'
 import HeroText from '../components/heroText'
 import SocialIcons from '../components/socialicons'
-import Portfolio from '../components/portfolio'
 import Card from "../components/card"
 
 
@@ -173,15 +166,14 @@ class IndexPage extends React.Component {
           <Title>About Me</Title>
           <Flex alignItems='center' flexDirection='column'>
             <Box px={2} width={[ 1 , 1 / 2 ]}>
-              <p style={{'text-align': 'left', 'line-height': '40px'}}>Currently working as a software developer at <a href='https://certiport.pearsonvue.com/'>Certiport, Pearson Vue</a> focusing on the exam development platform.
-
+              <p style={{'textAlign': 'left', 'lineHeight': '40px'}}>Currently working as a software developer at <a href='https://certiport.pearsonvue.com/'>Certiport, Pearson Vue</a> focusing on the exam development platform.
                <br/>  
                <br/>            
-                <span> ➕ As of this time I am highly involved in the thriving JavaScript ecosystem. </span>
-                <span> ➕ 5 years of experience in developing Single Page (SPA’s) and mobile related applications.</span>
-                <span> ➕ Highly expertise in libraries, frameworks - ReactJs, Angular7, NodeJs, ES6, Typescript. </span>
-                <span> ➕ Passionate about coding and design. I like building libraries from scratch. </span>
-                <span> ➕ Freelancer on Angular and NativeScript projects. </span>
+              <span> ➕ As of this time I am highly involved in the thriving JavaScript ecosystem. </span>
+              <span> ➕ 5 years of experience in developing Single Page (SPA’s) and mobile related applications.</span>
+              <span> ➕ Highly expertise in libraries, frameworks - ReactJs, Angular7, NodeJs, ES6, Typescript. </span>
+              <span> ➕ Passionate about coding and design. I like building libraries from scratch. </span>
+              <span> ➕ Freelancer on Angular and NativeScript projects. </span>
               </p>
             </Box>
           </Flex>

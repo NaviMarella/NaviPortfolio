@@ -1,9 +1,7 @@
 import React from 'react'
-import styled, {css} from 'styled-components'
-import Link from 'gatsby-link'
+import styled from 'styled-components'
 import {Flex, Box} from '@rebass/grid'
 import scrollToElement from 'scroll-to-element'
-import FlickrLightbox from 'react-flickr-lightbox'
 
 import Name from './name'
 import Button from './button'
@@ -15,15 +13,6 @@ const Base = styled.div `
   background: #292929;
 `
 
-const FooterText = styled.div`
-  padding-top: 6px;
-  color: #fff;
-  text-align: center;
-  a {
-    color: #9880dc;
-  }
-`
-
 const SocialIconsStyled = styled(SocialIcons)`
   margin-left: -8px;
   text-align: left;
@@ -31,14 +20,6 @@ const SocialIconsStyled = styled(SocialIcons)`
 
 const CenteredButtonBox = styled(Box)`
   margin: 2em auto;
-`
-
-const GalleryContainer = styled.div`
-  & > div > div {
-    width: fit-content;
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-  }
 `
 
 class Footer extends React.Component {

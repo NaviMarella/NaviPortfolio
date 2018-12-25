@@ -1,12 +1,7 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
-import {Flex, Box} from '@rebass/grid'
+import styled from 'styled-components'
+import {Flex} from '@rebass/grid'
 
-const Base = styled.div `
-  height: fit-contents;
-  padding: 0;
-  background: #292929;
-`
 
 class Showcase extends React.Component {
   render() {

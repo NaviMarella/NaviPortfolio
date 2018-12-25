@@ -69,7 +69,7 @@ const Base = styled.div `
 
 class NavBar extends React.Component {
   render() {
-    const linkMap = this.props.children.map((el) => { if (el.props.id) return { name: el.props.children, href: `#${el.props.id}`} }).filter((n) => n != undefined).reverse();
+    const linkMap = this.props.children.map((el) => { if (el.props.id) return { name: el.props.children, href: `#${el.props.id}`} }).filter((n) => n !== undefined).reverse();
     const links = linkMap.map(function(link) {
       return (<li key={link.name}>
         <a onClick={() => {scrollToElement(link.href)}}>{link.name}</a>

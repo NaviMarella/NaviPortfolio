@@ -1,6 +1,5 @@
 import React from 'react'
-import styled, { css } from 'styled-components'
-import FontAwesome from 'react-fontawesome'
+import styled from 'styled-components'
 import { FaTwitterSquare, FaLinkedin, FaGithubSquare } from 'react-icons/fa'
 
 class Icon extends React.Component {
