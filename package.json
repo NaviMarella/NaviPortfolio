@@ -48,10 +48,12 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "format": "prettier --write \"src/**/*.js\""
   },
   "devDependencies": {
     "gatsby-cli": "^2.4.7",
+    "gh-pages": "^2.0.1",
     "prettier": "^1.15.2"
   },
   "repository": {
