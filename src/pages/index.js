@@ -1,6 +1,6 @@
 import React from 'react'
 import { Flex, Box } from '@rebass/grid'
-import styled, { css } from 'styled-components'
+import styled, { css, createGlobalStyle } from 'styled-components'
 import FlickrHero from 'react-flickr-hero'
 import Footer from "../components/footer"
 import { media } from '../utils/style'
@@ -10,6 +10,13 @@ import HeroText from '../components/heroText'
 import SocialIcons from '../components/socialicons'
 import Card from "../components/card"
 
+export const GlobalStyle = createGlobalStyle`
+  @import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+  html {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+`
 
 const Content = styled.div`
   & > a {

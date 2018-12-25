@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+import styled, {css} from 'styled-components'
 import {Flex, Box} from '@rebass/grid'
 import scrollToElement from 'scroll-to-element'
 
@@ -11,6 +11,23 @@ const Base = styled.div `
   height: fit-contents;
   padding: 0;
   background: #292929;
+`
+
+const FooterText = styled.div`
+  padding-top: 6px;
+  color: #fff;
+  text-align: center;
+  a {
+    color: #9880dc;
+  }
+`
+
+const GalleryContainer = styled.div`
+  & > div > div {
+    width: fit-content;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
 `
 
 const SocialIconsStyled = styled(SocialIcons)`
