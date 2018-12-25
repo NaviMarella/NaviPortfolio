@@ -13,7 +13,7 @@ import Breadcrumb from '../components/breadcrumb'
 import Carousel from '../components/carousel'
 import NavBar from '../components/navbar'
 import HeroText from '../components/heroText'
-import SocialIcons from '../components/socialIcons'
+import socialicons from '../components/socialIcons'
 import Portfolio from '../components/portfolio'
 import Card from "../components/card"
 

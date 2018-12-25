@@ -7,7 +7,7 @@ import FlickrLightbox from 'react-flickr-lightbox'
 
 import Name from './name'
 import Button from './button'
-import SocialIcons from './socialIcons'
+import SocialIcons from './socialicons'
 
 const Base = styled.div `
   height: fit-contents;
