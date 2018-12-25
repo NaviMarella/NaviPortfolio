@@ -4,7 +4,7 @@ import { Flex, Box } from '@rebass/grid'
 import styled, { css } from 'styled-components'
 import Img from 'gatsby-image'
 import FlickrHero from 'react-flickr-hero'
-import Footer from "../components/Footer"
+import Footer from "../components/footer"
 import { media } from '../utils/style'
 import Showcase from "../components/showcase"
 import Button from '../components/button'
