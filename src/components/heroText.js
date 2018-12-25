@@ -42,13 +42,14 @@ class HeroText extends React.Component {
         <StyledTypist cursor={{show: false}} {...this.props}>
           <strong>I Am  Navi Marella</strong> 
           <p><br/></p>
-          <span> Front End Developer</span>
+          <span> React|Angular Developer</span>
          
-          <Typist.Backspace count={15} delay={500} />
+          <Typist.Backspace count={24} delay={500} />
           <span> OpenSource Contributor</span>
-          <Typist.Backspace count={12} delay={500} />
+          <Typist.Backspace count={22} delay={500} />
           <span> Trainer</span>
-          <Typist.Backspace count={9} delay={400} />
+          <Typist.Backspace count={8} delay={400} />
+          <span>Front End Developer</span>
        </StyledTypist>
       )
     }
