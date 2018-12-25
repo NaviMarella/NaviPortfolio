@@ -4,7 +4,7 @@ module.exports = {
     description: 'This is my portfolio and Website built using Gatsbyjs',
     author: '@NaviMarella'
   },
-  pathPrefix: "/NaviPortfolio",
+  pathPrefix: "/",
   plugins: [
     {
      resolve: `gatsby-plugin-google-fonts`,
@@ -15,6 +15,12 @@ module.exports = {
          'lato: 300,400,500'
        ]
      }
+    },
+    {
+      resolve: `gatsby-plugin-styled-components`,
+      options: {
+        displayName: false
+      },
     },
     {
       resolve: `gatsby-source-filesystem`,
